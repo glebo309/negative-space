@@ -10,10 +10,10 @@ Negative and inconclusive results still change what we know. They belong in the 
 
 ## Archive
 
-| Entry | Stage | Outcome |
-| --- | --- | --- |
-| [Enzyme solvent-tolerance prediction](investigations/enzyme-solvent-tolerance/) | completed | practical predictor claim not supported; biological hypothesis unresolved |
-| [Fly-connectome topology](ideas/fly-connectome-topology/) | idea | broad version already covered by prior work and too large for the intended side project |
+| Entry | Stage | Outcome | Source data |
+| --- | --- | --- | --- |
+| [Enzyme solvent-tolerance prediction](investigations/enzyme-solvent-tolerance/) | completed | practical predictor claim not supported; biological hypothesis unresolved | [OrganiZymeDB](https://organizymedb.org/download) |
+| [Fly-connectome topology](ideas/fly-connectome-topology/) | idea | broad version already covered by prior work and too large for the intended side project | none |
 
 ## How entries are organised
 

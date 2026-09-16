@@ -12,7 +12,7 @@ Original written content, result summaries, tables and figures are licensed unde
 
 ## OrganiZymeDB data
 
-The frozen `measurements.csv` snapshot in the enzyme solvent-tolerance investigation originates from [OrganiZymeDB](https://organizymedb.org/), created by Romain Debruyne and Fabrizio Pucci at Université Libre de Bruxelles.
+The frozen `measurements.csv` snapshot in the enzyme solvent-tolerance investigation originates from [OrganiZymeDB](https://organizymedb.org/download), created by Romain Debruyne and Fabrizio Pucci at Université Libre de Bruxelles. The archived v1.0 record is available under [DOI 10.5281/zenodo.21874133](https://doi.org/10.5281/zenodo.21874133).
 
 The database states that its data are licensed under [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/). Commercial use requires contacting the database authors. The original license continues to govern that file. Inclusion here does not relicense it under MIT or CC BY 4.0.
 

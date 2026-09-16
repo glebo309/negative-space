@@ -6,7 +6,10 @@
 | Outcome | practical predictor claim not supported; underlying biological hypothesis unresolved |
 | Started | 2026-09-11 |
 | Completed | 2026-09-12 |
-| Data | [OrganiZymeDB](https://organizymedb.org/), downloaded 2026-09-11 |
+| Source dataset | [OrganiZymeDB download page](https://organizymedb.org/download) |
+| Live dataset | [complete measurements CSV](https://organizymedb.org/download/measurements.csv) |
+| Dataset record | [OrganiZymeDB v1.0](https://doi.org/10.5281/zenodo.21874133) |
+| Frozen input | [`data/raw/measurements.csv.gz`](data/raw/measurements.csv.gz), downloaded 2026-09-11 |
 | Raw SHA-256 | `400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06` |
 
 ## Short result
