@@ -11,13 +11,13 @@
 
 ## Short result
 
-Protein sequence representations and explicit global surface descriptors did not establish useful organic-solvent ranking beyond experimental-condition baselines for unfamiliar enzyme families in the tested dataset. This justified stopping the current general-predictor project before launching prospective bench validation.
+Across the unfamiliar-family holdouts, protein sequence representations and global surface descriptors did not reliably improve organic-solvent ranking over models based on the recorded experimental conditions. The planned computational gate for prospective bench validation was not met, so I stopped development of the general predictor.
 
 ## Question
 
 Given an enzyme sequence, predicted structure and proposed organic cosolvent, can a model rank which solvents and concentration windows the enzyme is most likely to tolerate?
 
-The practical target was solvent choice for a previously unseen enzyme, not prediction of absolute retained activity across laboratories.
+The intended use was solvent selection for a previously unseen enzyme. Absolute retained activities measured in different laboratories were not treated as directly comparable targets.
 
 ## Brief context
 
@@ -29,13 +29,13 @@ The investigation therefore tested whether explicit protein information improves
 
 Enzymes that remain stable in organic solvents contain transferable sequence and surface-composition features that distinguish them from solvent-sensitive enzymes. In particular, the identity and distribution of solvent-exposed residues may help an enzyme retain its structure and activity during solvent exposure. By comparing tolerant and sensitive enzymes, it should therefore be possible to learn a sequence or surface signature that predicts the solvent stability of an unseen enzyme.
 
-This is not necessarily one universal stable-versus-unstable property. The relevant residue pattern may interact with solvent identity, concentration, temperature, exposure time and enzyme family.
+The relevant residue pattern may depend on the solvent, concentration, temperature, exposure time, and enzyme family.
 
 ## Operational predictive hypothesis
 
 If the biological signal is sufficiently consistent and represented in the available data, frozen protein-language-model representations and explicit solvent-accessible surface descriptors should improve matched-condition solvent ranking over experimental conditions alone when evaluated on unfamiliar protein groups and separated publications.
 
-The computational experiment directly tested this predictive version. It only tested the broader biological hypothesis indirectly.
+The computational experiment tested this predictive version. It did not isolate the underlying biological mechanism.
 
 ## Experiment
 
@@ -101,28 +101,25 @@ After explicit metadata controls, the full unfamiliar-family plus publication co
 
 A narrower familiar-family composition analysis retained a modest hint after removing a harmful family-label feature: 0.2263 versus 0.2021, difference +0.0242 with an interval from -0.0089 to +0.0824. Best-solvent selection was 26.60 percent versus 25.02 percent, a difference of 1.57 percentage points with an interval from -3.50 to +6.23. This did not establish practical solvent-selection value.
 
-Strong planted protein-by-solvent signals were recovered at correlations around 0.79 under both strict fold designs. Null and shuffled-feature controls did not show a clear advantage. The pipeline could recover a simple strong signal, but this does not establish power for every biologically plausible relationship.
+Strong planted protein-by-solvent signals were recovered at correlations around 0.79 under both strict fold designs. Null and shuffled-feature controls did not show a clear advantage. The pipeline could recover a simple strong signal; its sensitivity to weaker or more local biological relationships remains unknown.
 
 The final computational check passed 60 tests in the public package. These tests describe software and artifact coverage, not scientific replication.
 
 ## Conclusion
 
-The current combination of heterogeneous literature measurements, available metadata, frozen sequence representations and global surface descriptors did not establish a useful general solvent-selection model. The correct operational decision was to stop current predictor development and not launch a robotic validation panel based on these predictions.
+The heterogeneous literature measurements, available metadata, frozen sequence representations, and global surface descriptors did not establish a useful general solvent-selection model. I therefore stopped predictor development and did not launch the proposed robotic validation panel.
 
-The original biological hypothesis remains plausible but unresolved. The result shows that the tested sequence and global surface representations did not extract a transferable signal strong enough for the intended decision from this dataset. It does not show that individual surface residues or local structural mechanisms do not alter solvent stability.
+The original biological hypothesis remains unresolved. The tested representations did not extract a transferable signal strong enough for solvent selection from this dataset.
 
-## What this does not show
+## Limits of the conclusion
 
-- It does not show that protein sequence is unrelated to solvent tolerance.
-- It does not show that surface chemistry is biologically irrelevant.
-- It does not prove equivalence between protein-aware and conditions-only models.
-- It does not establish that OrganiZymeDB is generally erroneous.
-- It does not show that a standardized prospective dataset or a mechanism-specific representation would fail.
-- It does not justify deleting the modest familiar-family hint.
+The experiment did not test individual surface residues or local structural mechanisms directly. It also did not establish equivalence between the protein-aware and conditions-only models. A modest signal remained in the familiar-family composition analysis, and a standardized prospective dataset may produce a different result.
+
+The analysis supports a narrow conclusion about the tested representations and literature-derived labels. It does not support a general claim that protein sequence or surface chemistry is unrelated to solvent tolerance.
 
 ## Why the investigation stopped
 
-The predefined computational gate for prospective bench validation was not met. Further architecture search on the same labels would risk converting uncertainty into model selection rather than adding decisive evidence. Reopening the project would require materially new information, such as more comparable independent measurements, defensible repair of missing experimental context, or a mechanism-specific target and representation.
+The predefined gate for prospective bench validation was not met. Searching more model architectures against the same labels would not resolve the main limitation, which is the heterogeneity and incomplete context of the measurements. I would reopen the project for a more comparable independent dataset, a defensible reconstruction of missing experimental context, or a mechanism-specific target and representation.
 
 ## Reproduction
 
@@ -153,6 +150,6 @@ The checksum printed above must match the digest at the top of this page. The fr
 
 ## Next decisive experiment
 
-A genuinely stronger test would require a prospectively standardized dataset containing multiple unrelated enzymes measured against the same solvent panel, concentrations, incubation conditions and activity assay. That would be a new data-generation project rather than validation of the current predictor.
+A stronger test would use several unrelated enzymes measured prospectively against the same solvent panel, concentrations, incubation conditions, and activity assay.
 
-No continuation is currently justified using the same dataset and broader model search alone.
+The current dataset does not justify another round of broad model search.

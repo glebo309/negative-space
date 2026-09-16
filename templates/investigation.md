@@ -36,9 +36,9 @@ For an untested idea, write: `No experimental result exists.`
 
 State the narrowest conclusion justified by the result.
 
-## What this does not show
+## Limits of the conclusion
 
-List interpretations the evidence cannot support.
+State which nearby interpretations remain untested or unresolved.
 
 ## Why this investigation stopped
 
@@ -50,7 +50,7 @@ Provide commands, environment, data retrieval instructions, checksums and licens
 
 ## Next decisive experiment
 
-Describe the smallest experiment that would materially change the conclusion. For a closed project, say that no continuation is currently justified.
+Describe the smallest experiment that would materially change the conclusion. For a closed project, explain what new information would justify reopening it.
 
 ## Changes and extensions
 

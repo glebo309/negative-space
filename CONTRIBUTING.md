@@ -1,29 +1,23 @@
 # Contributing
 
-Negative Space accepts corrections, independent reproductions, extensions and new compact investigations.
+Corrections, independent reproductions, extensions, and new investigations are welcome.
 
-## Core rule
+## Existing entries
 
-Preserve the original record. A later correction or extension should be dated and appended or released separately. Do not silently replace an inconvenient outcome.
+Open an issue or pull request with the exact statement or result that needs attention and the evidence supporting the change. Keep the earlier record visible and add a dated correction or extension. Numerical corrections should include a reproducible calculation where possible.
+
+A reproduction or extension should identify the original commit, describe the changed data or method, and report how the new result affects the original conclusion.
 
 ## New investigations
 
-Start from [templates/investigation.md](templates/investigation.md). A complete entry must:
+Start from [templates/investigation.md](templates/investigation.md). An entry should:
 
-- state the question and original hypothesis before the result;
-- identify the primary endpoint;
-- assign stage and outcome separately;
-- distinguish unsupported, inconclusive and invalidated outcomes;
-- retain favourable and unfavourable analyses;
-- state what the evidence does not show;
-- explain why the investigation stopped;
-- link code, data, environment information and licenses;
-- disclose post hoc analyses as post hoc.
+- state the original question and hypothesis;
+- define the primary endpoint and relevant controls;
+- report favourable and unfavourable analyses;
+- distinguish an unsupported hypothesis from an inconclusive or invalid experiment;
+- identify post hoc analyses;
+- explain why the work stopped;
+- provide code, data provenance, environment information, and licenses where available.
 
-## Corrections
-
-Open an issue or pull request identifying the exact statement, file and supporting evidence. Numerical corrections should include a reproducible calculation where possible.
-
-## Reproductions and extensions
-
-Record the original commit or release, the changed data or method, and whether the new result reproduces, weakens, overturns or extends the original conclusion.
+An idea can be included without an experiment if it is clearly labelled `idea` and explains what was learned from the prior-art or feasibility check.
