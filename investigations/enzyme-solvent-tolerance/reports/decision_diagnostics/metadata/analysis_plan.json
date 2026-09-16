@@ -1,0 +1,43 @@
+{
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "cohort_counts_before_surface": {
+    "all": {
+      "rows": 5798,
+      "sequences": 295,
+      "publications": 272
+    },
+    "mode_qualified": {
+      "rows": 2316,
+      "sequences": 110,
+      "publications": 99
+    },
+    "aqueous_explicit": {
+      "rows": 2307,
+      "sequences": 109,
+      "publications": 98
+    }
+  },
+  "purpose": "Test source-audit-motivated context qualification, not optimize exclusions for performance",
+  "cohort_rules": "See metadata_diagnostics.py and source_audit/REPORT.md. Exclude final-comment assay/control uncertainty and explicit organic references; strict requires literal aqueous-phase procedure.",
+  "jobs": [
+    "all/identity30_publication",
+    "aqueous_explicit/identity30_publication",
+    "aqueous_explicit/identity30"
+  ],
+  "comparators": [
+    "conditions",
+    "metadata",
+    "composition+metadata",
+    "surface+metadata",
+    "esm650+metadata"
+  ],
+  "settings": {
+    "trees": 250,
+    "seed": 11,
+    "folds": "original folds retained after filtering",
+    "target": "log1p(percent)"
+  },
+  "interpretation": "Exploratory conditional bootstrap intervals, no multiplicity adjustment; absence of a curator flag is not confirmation of correct labels",
+  "control_strata": "Score the same out-of-fold predictions separately, no subgroup-specific training",
+  "note": "mode_qualified exported as inclusion ledger; aqueous_explicit is the prespecified smaller training sensitivity"
+}

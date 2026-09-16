@@ -1,0 +1,51 @@
+{
+  "source": "reports/decision_diagnostics/easier_tasks/augmented_metadata_split47/predictions.csv",
+  "source_sha256": "9cb899dd53ad28eea1cd05f0151ea41064ca0ef1245b0a30c33b3c8b06352a96",
+  "candidate": "composition",
+  "reference": "family_conditions",
+  "status": "Exploratory secondary decision metrics, not new independent confirmation or model-selection targets",
+  "definitions": {
+    "pairwise": "Fraction of non-tied observed solvent pairs correctly ordered; prediction ties receive half credit",
+    "top_rank": "Observed within-panel normalized midrank of top predicted solvent, 0 worst to 1 best",
+    "best_hit": "Fraction selecting an observed best solvent. Uniform expected score across exactly tied top predictions."
+  },
+  "weighting": "Average panels within sequence, then sequences; paired bootstrap on saved uncertainty groups, conditional on fits",
+  "metrics": {
+    "pairwise": {
+      "n_sequences": 72,
+      "n_clusters": 5,
+      "delta": 0.026916560113039088,
+      "ci95": [
+        -0.023791248704183726,
+        0.060719030551123335
+      ],
+      "candidate_mean": 0.5881725715220916,
+      "reference_mean": 0.5612560114090526,
+      "n_series": 165
+    },
+    "top_rank": {
+      "n_sequences": 72,
+      "n_clusters": 5,
+      "delta": 0.04100560050035454,
+      "ci95": [
+        0.003703725725184034,
+        0.08252219438669019
+      ],
+      "candidate_mean": 0.5898766498677812,
+      "reference_mean": 0.5488710493674266,
+      "n_series": 165
+    },
+    "best_hit": {
+      "n_sequences": 72,
+      "n_clusters": 5,
+      "delta": 0.06010802469135802,
+      "ci95": [
+        -0.04037558685446009,
+        0.1495854063018242
+      ],
+      "candidate_mean": 0.24583333333333332,
+      "reference_mean": 0.18572530864197534,
+      "n_series": 165
+    }
+  }
+}

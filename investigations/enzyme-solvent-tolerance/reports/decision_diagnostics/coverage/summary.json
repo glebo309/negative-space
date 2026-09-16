@@ -1,0 +1,32 @@
+{
+  "cohort": {
+    "initial_primary_rows": 6433,
+    "standard_sequence_rows": 6357,
+    "control100_valid_rows": 5801,
+    "duplicate_rows_removed": 3,
+    "rows": 5798,
+    "sequences": 295,
+    "solvents": 72,
+    "publications": 272
+  },
+  "identity30": {
+    "families": 160,
+    "families_with_5_sequences_and_5_papers": 8,
+    "sequences_with_multiple_papers": 15,
+    "rows_from_repeated_sequences": 493
+  },
+  "identity40": {
+    "families": 193,
+    "families_with_5_sequences_and_5_papers": 8,
+    "sequences_with_multiple_papers": 15,
+    "rows_from_repeated_sequences": 493
+  },
+  "numeric_conditions": {
+    "cross_paper_groups": 0,
+    "rows_in_complete_groups": 0
+  },
+  "full_recorded_context": {
+    "cross_paper_groups": 0,
+    "rows_in_complete_groups": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "forest_cases": 18,
+  "forest_model_configurations": 62,
+  "forest_completed_folds": 310,
+  "ridge_model_configurations": 16,
+  "ridge_completed_folds": 80,
+  "all_predictions_finite": true,
+  "unique_measurement_ids": true,
+  "group_separation_verified": true,
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "primary_complete": true
+}

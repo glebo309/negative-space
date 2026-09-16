@@ -1,0 +1,557 @@
+{
+  "all/identity30_publication": {
+    "rows": 5675,
+    "sequences": 289,
+    "publications": 266,
+    "clusters": 142,
+    "models": {
+      "conditions": {
+        "mae": 42.610557525529295
+      },
+      "metadata": {
+        "mae": 43.00294943023354
+      },
+      "composition": {
+        "mae": 44.46192440668331
+      },
+      "surface": {
+        "mae": 44.235388307837006
+      },
+      "esm650": {
+        "mae": 45.875190021648166
+      }
+    },
+    "comparisons": {
+      "metadata_vs_conditions": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": 0.010498779008452794,
+        "ci95": [
+          -0.023928018579891873,
+          0.04409723389369992
+        ],
+        "candidate": "metadata",
+        "reference": "conditions",
+        "candidate_mean": 0.1910061979086893,
+        "reference_mean": 0.1805074189002365,
+        "n_series": 763
+      },
+      "composition_vs_metadata": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": -0.0040445071291835295,
+        "ci95": [
+          -0.04550959310425585,
+          0.040825300966228564
+        ],
+        "candidate": "composition",
+        "reference": "metadata",
+        "candidate_mean": 0.18696169077950578,
+        "reference_mean": 0.1910061979086893,
+        "n_series": 763
+      },
+      "surface_vs_metadata": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": 0.015652878376839527,
+        "ci95": [
+          -0.027154981135636823,
+          0.06067692947457152
+        ],
+        "candidate": "surface",
+        "reference": "metadata",
+        "candidate_mean": 0.20665907628552885,
+        "reference_mean": 0.1910061979086893,
+        "n_series": 763
+      },
+      "esm650_vs_metadata": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": 0.02888704570185526,
+        "ci95": [
+          -0.01501498942320709,
+          0.0756247396303638
+        ],
+        "candidate": "esm650",
+        "reference": "metadata",
+        "candidate_mean": 0.21989324361054458,
+        "reference_mean": 0.1910061979086893,
+        "n_series": 763
+      },
+      "surface_vs_composition": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": 0.019697385506023058,
+        "ci95": [
+          -0.018479518015632905,
+          0.055075226246212534
+        ],
+        "candidate": "surface",
+        "reference": "composition",
+        "candidate_mean": 0.20665907628552885,
+        "reference_mean": 0.18696169077950578,
+        "n_series": 763
+      }
+    },
+    "strata": {
+      "water": {
+        "composition": {
+          "n_sequences": 51,
+          "n_clusters": 34,
+          "delta": 0.05006603764581251,
+          "ci95": [
+            -0.03771552747405977,
+            0.16099780911651093
+          ],
+          "candidate": "composition",
+          "reference": "metadata",
+          "candidate_mean": 0.2334997573480245,
+          "reference_mean": 0.18343371970221195,
+          "n_series": 124
+        },
+        "surface": {
+          "n_sequences": 51,
+          "n_clusters": 34,
+          "delta": 0.050198260567970936,
+          "ci95": [
+            -0.03536238769400378,
+            0.166736512234231
+          ],
+          "candidate": "surface",
+          "reference": "metadata",
+          "candidate_mean": 0.23363198027018292,
+          "reference_mean": 0.18343371970221195,
+          "n_series": 124
+        },
+        "esm650": {
+          "n_sequences": 51,
+          "n_clusters": 34,
+          "delta": 0.042951961878568784,
+          "ci95": [
+            -0.05988823625704254,
+            0.17455209331854796
+          ],
+          "candidate": "esm650",
+          "reference": "metadata",
+          "candidate_mean": 0.22638568158078073,
+          "reference_mean": 0.18343371970221195,
+          "n_series": 124
+        }
+      },
+      "nonincubated": {
+        "composition": {
+          "n_sequences": 221,
+          "n_clusters": 115,
+          "delta": -0.017254815918236258,
+          "ci95": [
+            -0.06886893341140721,
+            0.03085243178956735
+          ],
+          "candidate": "composition",
+          "reference": "metadata",
+          "candidate_mean": 0.18060334228398417,
+          "reference_mean": 0.19785815820222047,
+          "n_series": 637
+        },
+        "surface": {
+          "n_sequences": 221,
+          "n_clusters": 115,
+          "delta": 0.005045809300993326,
+          "ci95": [
+            -0.048209569448688074,
+            0.05290530888405212
+          ],
+          "candidate": "surface",
+          "reference": "metadata",
+          "candidate_mean": 0.20290396750321374,
+          "reference_mean": 0.19785815820222047,
+          "n_series": 637
+        },
+        "esm650": {
+          "n_sequences": 221,
+          "n_clusters": 115,
+          "delta": 0.02351514044934988,
+          "ci95": [
+            -0.027828198769662516,
+            0.0703615080089113
+          ],
+          "candidate": "esm650",
+          "reference": "metadata",
+          "candidate_mean": 0.2213732986515703,
+          "reference_mean": 0.19785815820222047,
+          "n_series": 637
+        }
+      }
+    }
+  },
+  "aqueous_explicit/identity30_publication": {
+    "rows": 2293,
+    "sequences": 107,
+    "publications": 97,
+    "clusters": 70,
+    "models": {
+      "conditions": {
+        "mae": 44.978363419989996
+      },
+      "metadata": {
+        "mae": 45.28539123889948
+      },
+      "composition": {
+        "mae": 45.09235227988994
+      },
+      "surface": {
+        "mae": 44.278527636352685
+      },
+      "esm650": {
+        "mae": 46.940354130040205
+      }
+    },
+    "comparisons": {
+      "metadata_vs_conditions": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": 0.01840175306431592,
+        "ci95": [
+          -0.013854404285464871,
+          0.05331196225705629
+        ],
+        "candidate": "metadata",
+        "reference": "conditions",
+        "candidate_mean": 0.25867994449062287,
+        "reference_mean": 0.2402781914263069,
+        "n_series": 320
+      },
+      "composition_vs_metadata": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": -0.001524560264065054,
+        "ci95": [
+          -0.07861114280570976,
+          0.06873558316775821
+        ],
+        "candidate": "composition",
+        "reference": "metadata",
+        "candidate_mean": 0.25715538422655776,
+        "reference_mean": 0.25867994449062287,
+        "n_series": 320
+      },
+      "surface_vs_metadata": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": 0.010292609281514464,
+        "ci95": [
+          -0.05979737702469505,
+          0.07533247471626603
+        ],
+        "candidate": "surface",
+        "reference": "metadata",
+        "candidate_mean": 0.2689725537721373,
+        "reference_mean": 0.25867994449062287,
+        "n_series": 320
+      },
+      "esm650_vs_metadata": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": 0.013205860493943074,
+        "ci95": [
+          -0.05825294743999174,
+          0.07914790318608414
+        ],
+        "candidate": "esm650",
+        "reference": "metadata",
+        "candidate_mean": 0.27188580498456594,
+        "reference_mean": 0.25867994449062287,
+        "n_series": 320
+      },
+      "surface_vs_composition": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": 0.011817169545579523,
+        "ci95": [
+          -0.0362508241058611,
+          0.0629928436842163
+        ],
+        "candidate": "surface",
+        "reference": "composition",
+        "candidate_mean": 0.2689725537721373,
+        "reference_mean": 0.25715538422655776,
+        "n_series": 320
+      }
+    },
+    "strata": {
+      "water": {
+        "composition": {
+          "n_sequences": 18,
+          "n_clusters": 16,
+          "delta": 0.02804519072101937,
+          "ci95": [
+            -0.08388596580299613,
+            0.12588055193703934
+          ],
+          "candidate": "composition",
+          "reference": "metadata",
+          "candidate_mean": 0.442116707624913,
+          "reference_mean": 0.4140715169038936,
+          "n_series": 55
+        },
+        "surface": {
+          "n_sequences": 18,
+          "n_clusters": 16,
+          "delta": 0.0640203103483975,
+          "ci95": [
+            -0.03135939551965811,
+            0.15617138560862345
+          ],
+          "candidate": "surface",
+          "reference": "metadata",
+          "candidate_mean": 0.4780918272522912,
+          "reference_mean": 0.4140715169038936,
+          "n_series": 55
+        },
+        "esm650": {
+          "n_sequences": 18,
+          "n_clusters": 16,
+          "delta": 0.05707575355153463,
+          "ci95": [
+            -0.04861043136801713,
+            0.1566635731883442
+          ],
+          "candidate": "esm650",
+          "reference": "metadata",
+          "candidate_mean": 0.47114727045542826,
+          "reference_mean": 0.4140715169038936,
+          "n_series": 55
+        }
+      },
+      "nonincubated": {
+        "composition": {
+          "n_sequences": 79,
+          "n_clusters": 50,
+          "delta": -0.008261971880919738,
+          "ci95": [
+            -0.0961474031273699,
+            0.07582524845774755
+          ],
+          "candidate": "composition",
+          "reference": "metadata",
+          "candidate_mean": 0.21501229788262874,
+          "reference_mean": 0.22327426976354847,
+          "n_series": 265
+        },
+        "surface": {
+          "n_sequences": 79,
+          "n_clusters": 50,
+          "delta": -0.0019491453919525529,
+          "ci95": [
+            -0.08187988285207821,
+            0.07832615386208981
+          ],
+          "candidate": "surface",
+          "reference": "metadata",
+          "candidate_mean": 0.22132512437159596,
+          "reference_mean": 0.22327426976354847,
+          "n_series": 265
+        },
+        "esm650": {
+          "n_sequences": 79,
+          "n_clusters": 50,
+          "delta": 0.003210188658036127,
+          "ci95": [
+            -0.07893602114501475,
+            0.07922334141499576
+          ],
+          "candidate": "esm650",
+          "reference": "metadata",
+          "candidate_mean": 0.22648445842158466,
+          "reference_mean": 0.22327426976354847,
+          "n_series": 265
+        }
+      }
+    }
+  },
+  "aqueous_explicit/identity30": {
+    "rows": 2293,
+    "sequences": 107,
+    "publications": 97,
+    "clusters": 78,
+    "models": {
+      "conditions": {
+        "mae": 42.79599429386545
+      },
+      "metadata": {
+        "mae": 42.97559104727225
+      },
+      "composition": {
+        "mae": 43.382298319656854
+      },
+      "surface": {
+        "mae": 43.57722816811473
+      },
+      "esm650": {
+        "mae": 45.62338735919055
+      }
+    },
+    "comparisons": {
+      "metadata_vs_conditions": {
+        "n_sequences": 97,
+        "n_clusters": 70,
+        "delta": -0.007107327629701663,
+        "ci95": [
+          -0.03737578051871617,
+          0.01970050519613445
+        ],
+        "candidate": "metadata",
+        "reference": "conditions",
+        "candidate_mean": 0.2864076804163547,
+        "reference_mean": 0.29351500804605646,
+        "n_series": 320
+      },
+      "composition_vs_metadata": {
+        "n_sequences": 97,
+        "n_clusters": 70,
+        "delta": -0.03046565292793219,
+        "ci95": [
+          -0.12039773269413881,
+          0.0526654836251342
+        ],
+        "candidate": "composition",
+        "reference": "metadata",
+        "candidate_mean": 0.25594202748842254,
+        "reference_mean": 0.2864076804163547,
+        "n_series": 320
+      },
+      "surface_vs_metadata": {
+        "n_sequences": 97,
+        "n_clusters": 70,
+        "delta": -0.026325741394241747,
+        "ci95": [
+          -0.11159490876265148,
+          0.05034045160159696
+        ],
+        "candidate": "surface",
+        "reference": "metadata",
+        "candidate_mean": 0.26008193902211296,
+        "reference_mean": 0.2864076804163547,
+        "n_series": 320
+      },
+      "esm650_vs_metadata": {
+        "n_sequences": 97,
+        "n_clusters": 70,
+        "delta": -0.015871651076570015,
+        "ci95": [
+          -0.08243231281618839,
+          0.048279814255081786
+        ],
+        "candidate": "esm650",
+        "reference": "metadata",
+        "candidate_mean": 0.2705360293397847,
+        "reference_mean": 0.2864076804163547,
+        "n_series": 320
+      },
+      "surface_vs_composition": {
+        "n_sequences": 97,
+        "n_clusters": 70,
+        "delta": 0.004139911533690445,
+        "ci95": [
+          -0.03831555506180879,
+          0.0500929204719834
+        ],
+        "candidate": "surface",
+        "reference": "composition",
+        "candidate_mean": 0.26008193902211296,
+        "reference_mean": 0.25594202748842254,
+        "n_series": 320
+      }
+    },
+    "strata": {
+      "water": {
+        "composition": {
+          "n_sequences": 18,
+          "n_clusters": 17,
+          "delta": 0.021864010016227963,
+          "ci95": [
+            -0.0335548029811636,
+            0.06812222038702873
+          ],
+          "candidate": "composition",
+          "reference": "metadata",
+          "candidate_mean": 0.5133646682657127,
+          "reference_mean": 0.49150065824948463,
+          "n_series": 55
+        },
+        "surface": {
+          "n_sequences": 18,
+          "n_clusters": 17,
+          "delta": -0.009955924367968839,
+          "ci95": [
+            -0.06810192429220777,
+            0.04467371903063313
+          ],
+          "candidate": "surface",
+          "reference": "metadata",
+          "candidate_mean": 0.48154473388151575,
+          "reference_mean": 0.49150065824948463,
+          "n_series": 55
+        },
+        "esm650": {
+          "n_sequences": 18,
+          "n_clusters": 17,
+          "delta": 0.010337786945916062,
+          "ci95": [
+            -0.0683000496874164,
+            0.07940292895044367
+          ],
+          "candidate": "esm650",
+          "reference": "metadata",
+          "candidate_mean": 0.5018384451954008,
+          "reference_mean": 0.49150065824948463,
+          "n_series": 55
+        }
+      },
+      "nonincubated": {
+        "composition": {
+          "n_sequences": 79,
+          "n_clusters": 57,
+          "delta": -0.04238886726963956,
+          "ci95": [
+            -0.14932220064043472,
+            0.05537075171253387
+          ],
+          "candidate": "composition",
+          "reference": "metadata",
+          "candidate_mean": 0.19728876756448302,
+          "reference_mean": 0.23967763483412252,
+          "n_series": 265
+        },
+        "surface": {
+          "n_sequences": 79,
+          "n_clusters": 57,
+          "delta": -0.030055573121746965,
+          "ci95": [
+            -0.13132130065431008,
+            0.06039005423863171
+          ],
+          "candidate": "surface",
+          "reference": "metadata",
+          "candidate_mean": 0.2096220617123757,
+          "reference_mean": 0.23967763483412252,
+          "n_series": 265
+        },
+        "esm650": {
+          "n_sequences": 79,
+          "n_clusters": 57,
+          "delta": -0.021843421765237733,
+          "ci95": [
+            -0.10150008623453904,
+            0.057983129951435466
+          ],
+          "candidate": "esm650",
+          "reference": "metadata",
+          "candidate_mean": 0.2178342130688848,
+          "reference_mean": 0.23967763483412252,
+          "n_series": 265
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "purpose": "Separate relative solvent ranking from heterogeneous absolute activity scales",
+  "target": "Average replicate rows by solvent within full matched series, rank averages, normalize (midrank-1)/(n_solvents-1). Exclude <3-solvent or constant series.",
+  "leakage": "Matched series cannot cross strict sequence/publication folds. Targets computed only from their own series; no across-series normalization.",
+  "models": [
+    "metadata conditions",
+    "metadata plus composition",
+    "metadata plus surface",
+    "metadata plus ESM650"
+  ],
+  "settings": {
+    "trees": 250,
+    "seed": 11,
+    "min_samples_leaf": 5
+  },
+  "cohorts": [
+    "all scoreable series",
+    "aqueous_explicit scoreable series"
+  ],
+  "split": "original identity30_publication folds retained",
+  "score": "Original real-activity matched-solvent Spearman. fit_oof applies a monotone expm1 transform; output is a ranking score, never activity percent.",
+  "status": "Exploratory, specified after absolute-regression results; no heldout tuning or multiplicity correction"
+}

@@ -1,0 +1,426 @@
+{
+  "completed": "2026-09-12",
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "prediction_tables": 37,
+  "cached_fits": 449,
+  "cached_files": 281,
+  "all_checks_passed": true,
+  "scope": "All decision-diagnostic prediction tables checked for unique source IDs, exact sequence IDs, unchanged real targets, finite model values and appropriate sequence/publication separation. Known-enzyme folds separately verified in easier-task QA; optimistic row splits intentionally exempt.",
+  "predictions": [
+    {
+      "path": "reports/decision_diagnostics/composition_ablation/augmented_metadata/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "surface",
+        "family_conditions",
+        "composition_no_family",
+        "composition_with_family"
+      ],
+      "synthetic": false,
+      "sha256": "2e1da24a8277cd21520d39ed45af97a3d3c3a754ab5c5652952377b225396545"
+    },
+    {
+      "path": "reports/decision_diagnostics/composition_ablation/augmented_metadata_split101/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "family_conditions",
+        "composition_no_family",
+        "composition_with_family"
+      ],
+      "synthetic": false,
+      "sha256": "23345f3816de638a241d1826351d43850d42257d839b4ba0c522f9859634079f"
+    },
+    {
+      "path": "reports/decision_diagnostics/composition_ablation/augmented_metadata_split17/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "family_conditions",
+        "composition_no_family",
+        "composition_with_family"
+      ],
+      "synthetic": false,
+      "sha256": "e0204f698afebfa1f6207964de9ebfdf54938748be4e1f9a0a9cac70b6fd2ce0"
+    },
+    {
+      "path": "reports/decision_diagnostics/composition_ablation/augmented_metadata_split23/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "family_conditions",
+        "composition_no_family",
+        "composition_with_family"
+      ],
+      "synthetic": false,
+      "sha256": "2d957198b00f2c600e23aeab7a1fc9ca21bd8af4395190d3140da102836e3aec"
+    },
+    {
+      "path": "reports/decision_diagnostics/composition_ablation/augmented_metadata_split47/predictions.csv",
+      "rows": 1362,
+      "models": [
+        "conditions",
+        "surface",
+        "family_conditions",
+        "composition_no_family",
+        "composition_with_family"
+      ],
+      "synthetic": false,
+      "sha256": "87ee1a1907986b6f7f6ab63ce5148f2f0a661e3a92d3f01e8bd731f30791e666"
+    },
+    {
+      "path": "reports/decision_diagnostics/composition_ablation/augmented_metadata_split71/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "family_conditions",
+        "composition_no_family",
+        "composition_with_family"
+      ],
+      "synthetic": false,
+      "sha256": "42477cd9c5e3f5837f977e4c2213977a62c2f1e77e39b1017b7167667e74bdf6"
+    },
+    {
+      "path": "reports/decision_diagnostics/controls/identity30/moderate/predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "planted_protein"
+      ],
+      "synthetic": true,
+      "sha256": "e2feee374a51998ab47a51a53849f0919bfcf3967a8b7b1811af571730f1f8fa"
+    },
+    {
+      "path": "reports/decision_diagnostics/controls/identity30/no_protein_signal/predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "planted_protein"
+      ],
+      "synthetic": true,
+      "sha256": "cf209a23e8ac914135f52c47e2cc1d3da620d73bd84df5a3231102a4ef16c58f"
+    },
+    {
+      "path": "reports/decision_diagnostics/controls/identity30/shuffled/predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "planted_protein"
+      ],
+      "synthetic": true,
+      "sha256": "569d1a9319e3393e1024452f8ab2872c500685eeca968feac2333fff2b88fd63"
+    },
+    {
+      "path": "reports/decision_diagnostics/controls/identity30/strong/predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "planted_protein"
+      ],
+      "synthetic": true,
+      "sha256": "5bc2204c1d1603e4b1a3a90fdd8135bfc849118bb949082b177d1bed1125c6fc"
+    },
+    {
+      "path": "reports/decision_diagnostics/controls/identity30_publication/moderate/predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "planted_protein"
+      ],
+      "synthetic": true,
+      "sha256": "1212d8f9b21ed05a743d21c72f3fc9f4bf143412eaeaae4848fa517edd7b9dff"
+    },
+    {
+      "path": "reports/decision_diagnostics/controls/identity30_publication/no_protein_signal/predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "planted_protein"
+      ],
+      "synthetic": true,
+      "sha256": "e2db1e0fd3b9a21f78a5e03cf558e0363e52286b6eb28e1a5f6f820a0ddd8f0f"
+    },
+    {
+      "path": "reports/decision_diagnostics/controls/identity30_publication/shuffled/predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "planted_protein"
+      ],
+      "synthetic": true,
+      "sha256": "f141a021064c0a8746f12428ca1295c3f95baf2212078c0b618b25d77155457e"
+    },
+    {
+      "path": "reports/decision_diagnostics/controls/identity30_publication/strong/predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "planted_protein"
+      ],
+      "synthetic": true,
+      "sha256": "011372e356613692f6c2834db9071f05d416e009c3cafed8955c369cf1c464ab"
+    },
+    {
+      "path": "reports/decision_diagnostics/direct_ranking/all/predictions.csv",
+      "rows": 5275,
+      "models": [
+        "conditions",
+        "composition",
+        "surface",
+        "esm650"
+      ],
+      "synthetic": false,
+      "sha256": "923e3bef5697d09d10d06faa5e9c49cca16183efb5fe779cec31e770de2e5aed"
+    },
+    {
+      "path": "reports/decision_diagnostics/direct_ranking/aqueous_explicit/predictions.csv",
+      "rows": 2036,
+      "models": [
+        "conditions",
+        "composition",
+        "surface",
+        "esm650"
+      ],
+      "synthetic": false,
+      "sha256": "9d157d9432de10ef782436e63796b83f3f54264fece5e35cad4fc30f0ee1630d"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/augmented_metadata/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "composition",
+        "surface",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "f8e48a27e1665552383fbd67773bec340be4e4b94ce80cce01b6f8c506047f9a"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/augmented_metadata_plain_baseline/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions"
+      ],
+      "synthetic": false,
+      "sha256": "b261207c651019552f60c945d91893bc1fbd9fd11939dfabe7872bd5893bd099"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/augmented_metadata_split101/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "4448a0e0f7199918644a5a11b5738e11dac0e18d1058087d9b2486643ff199e7"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/augmented_metadata_split17/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "6d44f9753207eae35c6edf75588e0a2b66ce59c57a78eb36bc61337192d86fff"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/augmented_metadata_split23/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "1712e04fe89ee5ff5ebdb68e89a5a343031f1b41a2eaad455672fc48ef256046"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/augmented_metadata_split47/predictions.csv",
+      "rows": 1362,
+      "models": [
+        "composition",
+        "surface",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "9cb899dd53ad28eea1cd05f0151ea41064ca0ef1245b0a30c33b3c8b06352a96"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/augmented_metadata_split47_plain_baseline/predictions.csv",
+      "rows": 1362,
+      "models": [
+        "conditions"
+      ],
+      "synthetic": false,
+      "sha256": "f6f8cf37aad14e3e511cf4d97d666e7ef7d27f990fee92ea72721deac848587a"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/augmented_metadata_split71/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "47656c2a670c74e8793d842aa9adf175806e11ae52146f57dc87a8f7c97a670c"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/familiar_family/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "surface",
+        "esm650",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "51bf260774d7a9d7c5fc43a6a5dd7849c59b8fc6ee8f8f104fe4a47611a5f477"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/known_enzyme/predictions.csv",
+      "rows": 432,
+      "models": [
+        "conditions",
+        "surface",
+        "sequence_identity"
+      ],
+      "synthetic": false,
+      "sha256": "210155a4dcaf935b1f644a41a7bc235c557d682f8ea39911ff1ed5177ad1bf96"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/repeated_split_stability/augmented_metadata/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "surface",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "b971da9883d901d5e5465402c84a43bf134c027b78cd6676d90fec6500d6642c"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/repeated_split_stability/augmented_metadata_split101/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "39beb5bd338c2203a217bfcfdd6e6df459e8f46ba9f8b25fc6cc372f146922d0"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/repeated_split_stability/augmented_metadata_split17/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "21a7012fc66485178e4ea82964d375244dd2da58af593e19d893483653e6fd91"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/repeated_split_stability/augmented_metadata_split23/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "ef26b1fa910c91037e0eb2bc7ec570cbb95924995fc06f05301b8f7ba1dac68d"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/repeated_split_stability/augmented_metadata_split47/predictions.csv",
+      "rows": 1362,
+      "models": [
+        "conditions",
+        "composition",
+        "surface",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "632f2e47b0f146b9b37215e529eb067224c12a08b275f42b897bed09ede8ceeb"
+    },
+    {
+      "path": "reports/decision_diagnostics/easier_tasks/repeated_split_stability/augmented_metadata_split71/predictions.csv",
+      "rows": 1517,
+      "models": [
+        "conditions",
+        "composition",
+        "family_conditions"
+      ],
+      "synthetic": false,
+      "sha256": "9125d68b2bf236b844bdb8a3b900bf7894d1643b625e0118bdd89aab27348373"
+    },
+    {
+      "path": "reports/decision_diagnostics/metadata/all/identity30_publication/predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "metadata",
+        "composition",
+        "surface",
+        "esm650"
+      ],
+      "synthetic": false,
+      "sha256": "b59b206cb7709e989068c2edaca08cd8537179b1ba73cbe5aecfa661d6fa1295"
+    },
+    {
+      "path": "reports/decision_diagnostics/metadata/aqueous_explicit/identity30/predictions.csv",
+      "rows": 2293,
+      "models": [
+        "conditions",
+        "metadata",
+        "composition",
+        "surface",
+        "esm650"
+      ],
+      "synthetic": false,
+      "sha256": "216684929b51777d8521c0839507338b9af13c0a08d08975e8492ff87293a43e"
+    },
+    {
+      "path": "reports/decision_diagnostics/metadata/aqueous_explicit/identity30_publication/predictions.csv",
+      "rows": 2293,
+      "models": [
+        "conditions",
+        "metadata",
+        "composition",
+        "surface",
+        "esm650"
+      ],
+      "synthetic": false,
+      "sha256": "29f4334934d1f04b0736641b34f90b46072bdefd3b24531177d6db91a635beed"
+    },
+    {
+      "path": "reports/decision_diagnostics/optimistic/random_rows_predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "surface",
+        "esm650"
+      ],
+      "synthetic": false,
+      "sha256": "41a16e94210c2b9947ccdc99677642a025be487b7a88832eba55f513d888cdd4"
+    },
+    {
+      "path": "reports/decision_diagnostics/optimistic/training_fit_predictions.csv",
+      "rows": 5675,
+      "models": [
+        "conditions",
+        "surface",
+        "esm650"
+      ],
+      "synthetic": false,
+      "sha256": "b5ade59e0b5a1ddb2934b599447e05eaf6b66a6b707b717538f000cd6a3b6cd2"
+    }
+  ]
+}

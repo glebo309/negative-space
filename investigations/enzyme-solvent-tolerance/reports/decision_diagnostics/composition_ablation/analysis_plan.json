@@ -1,0 +1,17 @@
+{
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "reason": "Final independent reviewer identified candidate still carried family identity, a feature that harmed baseline",
+  "change": "Composition candidate now uses exactly metadata-only baseline inputs plus 20 amino-acid frequencies; family identity omitted from both",
+  "fixed": "Same six assignments, same supported evaluation rows, same full covered training cohort, same250trees seed11 minleaf5",
+  "assignments": [
+    "augmented_metadata",
+    "augmented_metadata_split47",
+    "augmented_metadata_split17",
+    "augmented_metadata_split23",
+    "augmented_metadata_split71",
+    "augmented_metadata_split101"
+  ],
+  "scope": "Bounded ablation before stop-versus-narrow decision, not heldout hyperparameter tuning",
+  "aggregation": "Sequence-average over available assignments; count each sequence once; family/publication uncertainty components",
+  "positive_results": "Report every assignment, primary rank metric and secondary utility, regardless of outcome"
+}

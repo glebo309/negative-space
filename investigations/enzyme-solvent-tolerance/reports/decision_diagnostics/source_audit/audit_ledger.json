@@ -1,0 +1,41 @@
+{
+  "audit_date": "2026-09-11",
+  "sample_design": "Purposive diagnostic sample; not an error-prevalence estimate",
+  "sources": {
+    "lipc12": {"doi":"10.1186/1475-2859-10-54","url":"https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3161859/fullTextXML","location":"Table 2; stability methods; expression and purification","context":"48h 4C 15/30% v/v; 100-fold dilution and solvent equalization; no cloning mutation, His tag; precise non-incubated status of reference not resolved by table footnote"},
+    "esta1": {"doi":"10.4014/jmb.1907.07057","url":"https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9728341/fullTextXML","location":"Table 1; Characterization of Esterase EstA1; final Results","context":"30min 30C incubation; assay pH8 40C; no-solvent reference100; Δ20 and Δ54 engineered constructs despite database WT; solvent carry-over not specified"},
+    "adha1": {"doi":"10.1002/2211-5463.12557","url":"https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6356862/fullTextXML","location":"Figure 2B caption and methods","context":"water-incubated reference; 2M NaCl 10mM HEPES/NaOH pH7.5 room-temperature incubation; selected figure values not redigitized"},
+    "rsml": {"doi":"10.1007/s12010-012-0028-7","url":"https://link.springer.com/article/10.1007/s12010-012-0028-7","location":"Abstract only; subscription methods unavailable","context":"active inclusion-body formulation and solvent activation confirmed; exact values, fraction and normalization unverified"},
+    "chimera": {"doi":"10.1007/s12010-012-0014-0","url":"https://link.springer.com/article/10.1007/s12010-012-0014-0","location":"Abstract only; subscription methods unavailable","context":"A112G H113E Q115A chimera confirmed; database WT is reference construct; numerical results unverified"},
+    "mtlt2": {"doi":"10.1016/j.chembiol.2007.08.010","url":"https://pubmed.ncbi.nlm.nih.gov/17884637/","location":"Abstract only; database comments directly inspected","context":"specific MtLT2 record unverified; database itself explicitly says organic solvent in reference and assay"},
+    "borate": {"doi":"10.1016/0141-0229(93)90102-8","url":"https://pubmed.ncbi.nlm.nih.gov/7764108/","location":"Abstract only; numeric tables unavailable","context":"buffer-dependent stability confirmed in abstract; exact records unverified"},
+    "pleurotus": {"doi":"10.1016/j.chemosphere.2019.06.113","url":"https://pubmed.ncbi.nlm.nih.gov/31234090/","location":"Primary metadata only; numeric results unavailable","context":"largest cohort publication, 180 rows; selected records unverified"}
+  },
+  "records": [
+    {"measurement_id":7968,"source":"lipc12","solvent":"Methanol","fraction_percent":15,"database_value":1204.1,"source_value":1204.1,"value_status":"exact_agreement"},
+    {"measurement_id":7969,"source":"lipc12","solvent":"Methanol","fraction_percent":30,"database_value":1561.1,"source_value":1561.1,"value_status":"exact_agreement"},
+    {"measurement_id":7973,"source":"lipc12","solvent":"1-Propanol","fraction_percent":30,"database_value":1161.9,"source_value":1161.9,"value_status":"exact_agreement"},
+    {"measurement_id":7979,"source":"lipc12","solvent":"Tetrahydrofuran","fraction_percent":30,"database_value":1690.6,"source_value":1690.9,"value_status":"confirmed_minor_discrepancy"},
+    {"measurement_id":7980,"source":"lipc12","solvent":"Acetone","fraction_percent":15,"database_value":66.5,"source_value":66.5,"value_status":"exact_agreement"},
+    {"measurement_id":7988,"source":"lipc12","solvent":"Acetonitrile","fraction_percent":15,"database_value":62.7,"source_value":62.7,"value_status":"exact_agreement"},
+    {"measurement_id":7989,"source":"lipc12","solvent":"Acetonitrile","fraction_percent":30,"database_value":316.2,"source_value":316.2,"value_status":"exact_agreement"},
+    {"measurement_id":15584,"source":"esta1","construct":"delta20","solvent":"Dimethyl Sulfoxide","fraction_percent":15,"database_value":106,"source_value":106,"value_status":"exact_agreement"},
+    {"measurement_id":15586,"source":"esta1","construct":"delta20","solvent":"Acetonitrile","fraction_percent":15,"database_value":68,"source_value":68,"value_status":"exact_agreement"},
+    {"measurement_id":15594,"source":"esta1","construct":"delta20","solvent":"Acetonitrile","fraction_percent":30,"database_value":0,"source_value":"ND (not detected)","value_status":"censored_as_zero"},
+    {"measurement_id":15608,"source":"esta1","construct":"delta54","solvent":"Dimethyl Sulfoxide","fraction_percent":15,"database_value":81,"source_value":81,"value_status":"exact_agreement"},
+    {"measurement_id":15620,"source":"esta1","construct":"delta54","solvent":"Acetone","fraction_percent":30,"database_value":55,"source_value":55,"value_status":"exact_agreement"},
+    {"measurement_id":15631,"source":"esta1","construct":"delta54","solvent":"n-Hexane","fraction_percent":50,"database_value":131,"source_value":131,"value_status":"exact_agreement"},
+    {"measurement_id":14687,"source":"adha1","solvent":"Acetonitrile","fraction_percent":10,"database_value":99,"source_value":null,"value_status":"context_verified_not_redigitized"},
+    {"measurement_id":14694,"source":"adha1","solvent":"Acetonitrile","fraction_percent":10,"database_value":77,"source_value":null,"value_status":"context_verified_not_redigitized"},
+    {"measurement_id":14718,"source":"adha1","solvent":"Methanol","fraction_percent":30,"database_value":32,"source_value":null,"value_status":"context_verified_not_redigitized"},
+    {"measurement_id":9245,"source":"rsml","solvent":"Dimethyl Sulfoxide","fraction_percent":10,"database_value":192,"source_value":null,"value_status":"formulation_verified_values_inaccessible"},
+    {"measurement_id":9264,"source":"rsml","solvent":"Diisopropyl Ether","fraction_percent":50,"database_value":1031,"source_value":null,"value_status":"formulation_verified_values_inaccessible"},
+    {"measurement_id":9266,"source":"chimera","solvent":"Acetone","fraction_percent":30,"database_value":97,"source_value":null,"value_status":"construct_verified_values_inaccessible"},
+    {"measurement_id":9268,"source":"chimera","solvent":"n-Heptane","fraction_percent":30,"database_value":106,"source_value":null,"value_status":"construct_verified_values_inaccessible"},
+    {"measurement_id":5512,"source":"mtlt2","solvent":"Ethanol","fraction_percent":50,"database_value":80,"source_value":null,"value_status":"values_inaccessible_database_context_flag"},
+    {"measurement_id":2510,"source":"borate","solvent":"Acetone","fraction_percent":10,"database_value":102,"source_value":null,"value_status":"values_inaccessible"},
+    {"measurement_id":2511,"source":"borate","solvent":"Acetone","fraction_percent":25,"database_value":103,"source_value":null,"value_status":"values_inaccessible"},
+    {"measurement_id":15217,"source":"pleurotus","solvent":"Methanol","fraction_percent":10,"database_value":103.52,"source_value":null,"value_status":"values_inaccessible"},
+    {"measurement_id":15218,"source":"pleurotus","solvent":"Methanol","fraction_percent":50,"database_value":71.04,"source_value":null,"value_status":"values_inaccessible"}
+  ]
+}

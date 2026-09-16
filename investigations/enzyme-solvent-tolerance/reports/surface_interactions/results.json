@@ -1,0 +1,722 @@
+{
+  "identity30_publication": {
+    "rows": 5675,
+    "sequences": 289,
+    "models": {
+      "conditions": {
+        "mae": 45.395268743282884,
+        "r2_percent": -0.14290837837805648,
+        "r2_log1p": 0.05240499888249761,
+        "iterations": [
+          32,
+          31,
+          32,
+          32,
+          30
+        ],
+        "clipped_negative_log_predictions": 2
+      },
+      "composition": {
+        "mae": 284.9417671921965,
+        "r2_percent": -4560.77714989712,
+        "r2_log1p": -0.5593818056080828,
+        "iterations": [
+          95,
+          92,
+          91,
+          95,
+          92
+        ],
+        "clipped_negative_log_predictions": 97
+      },
+      "surface": {
+        "mae": 298.7705893717646,
+        "r2_percent": -3205.6521221080397,
+        "r2_log1p": -0.9215642186929802,
+        "iterations": [
+          108,
+          105,
+          104,
+          105,
+          102
+        ],
+        "clipped_negative_log_predictions": 39
+      },
+      "esm650": {
+        "mae": 96.5237494583062,
+        "r2_percent": -39.68509051397951,
+        "r2_log1p": -0.385439616514337,
+        "iterations": [
+          82,
+          82,
+          83,
+          79,
+          79
+        ],
+        "clipped_negative_log_predictions": 83
+      }
+    },
+    "comparisons": {
+      "composition_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 136,
+          "delta": 0.03759820368699688,
+          "ci95": [
+            -0.013866267668230705,
+            0.08670879028698864
+          ],
+          "candidate": "composition",
+          "reference": "conditions",
+          "candidate_mean": 0.19567916185616807,
+          "reference_mean": 0.15808095816917117,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 141,
+          "delta": -0.004282763466457346,
+          "ci95": [
+            -0.06211753297323908,
+            0.047970596316673324
+          ],
+          "candidate": "composition",
+          "reference": "conditions",
+          "candidate_mean": 0.28664282482734305,
+          "reference_mean": 0.2909255882938004,
+          "n_series": 285
+        }
+      },
+      "surface_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 136,
+          "delta": -0.020965385935301378,
+          "ci95": [
+            -0.08835557798950928,
+            0.051635323983307904
+          ],
+          "candidate": "surface",
+          "reference": "conditions",
+          "candidate_mean": 0.13711557223386983,
+          "reference_mean": 0.15808095816917117,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 141,
+          "delta": -0.029075999922706517,
+          "ci95": [
+            -0.09120730392165805,
+            0.035623834244775096
+          ],
+          "candidate": "surface",
+          "reference": "conditions",
+          "candidate_mean": 0.26184958837109384,
+          "reference_mean": 0.2909255882938004,
+          "n_series": 285
+        }
+      },
+      "esm650_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 136,
+          "delta": 0.013832205193246103,
+          "ci95": [
+            -0.036110798138361454,
+            0.06189894468741032
+          ],
+          "candidate": "esm650",
+          "reference": "conditions",
+          "candidate_mean": 0.1719131633624173,
+          "reference_mean": 0.15808095816917117,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 141,
+          "delta": 0.01740406686516304,
+          "ci95": [
+            -0.026747626899884618,
+            0.059413567638884515
+          ],
+          "candidate": "esm650",
+          "reference": "conditions",
+          "candidate_mean": 0.30832965515896343,
+          "reference_mean": 0.2909255882938004,
+          "n_series": 285
+        }
+      },
+      "surface_vs_composition": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 136,
+          "delta": -0.05856358962229825,
+          "ci95": [
+            -0.10803279109065954,
+            -0.006547250623739216
+          ],
+          "candidate": "surface",
+          "reference": "composition",
+          "candidate_mean": 0.13711557223386983,
+          "reference_mean": 0.19567916185616807,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 141,
+          "delta": -0.024793236456249174,
+          "ci95": [
+            -0.07199664300331336,
+            0.03240965417107963
+          ],
+          "candidate": "surface",
+          "reference": "composition",
+          "candidate_mean": 0.26184958837109384,
+          "reference_mean": 0.28664282482734305,
+          "n_series": 285
+        }
+      }
+    }
+  },
+  "identity30": {
+    "rows": 5675,
+    "sequences": 289,
+    "models": {
+      "conditions": {
+        "mae": 45.01670364144702,
+        "r2_percent": -0.14294506194278767,
+        "r2_log1p": 0.044559160242674145,
+        "iterations": [
+          31,
+          31,
+          30,
+          32,
+          32
+        ],
+        "clipped_negative_log_predictions": 2
+      },
+      "composition": {
+        "mae": 85.06727150988252,
+        "r2_percent": -5.598191579908063,
+        "r2_log1p": -0.532667427617233,
+        "iterations": [
+          88,
+          95,
+          89,
+          94,
+          93
+        ],
+        "clipped_negative_log_predictions": 90
+      },
+      "surface": {
+        "mae": 7435.182986036404,
+        "r2_percent": -4431764.15102743,
+        "r2_log1p": -0.9626964495517856,
+        "iterations": [
+          102,
+          105,
+          103,
+          106,
+          106
+        ],
+        "clipped_negative_log_predictions": 15
+      },
+      "esm650": {
+        "mae": 155.3113220846513,
+        "r2_percent": -795.665493212999,
+        "r2_log1p": -0.40649543122595055,
+        "iterations": [
+          81,
+          86,
+          79,
+          86,
+          83
+        ],
+        "clipped_negative_log_predictions": 88
+      }
+    },
+    "comparisons": {
+      "composition_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 151,
+          "delta": 0.006237291777767763,
+          "ci95": [
+            -0.04851928290983782,
+            0.06052028727923863
+          ],
+          "candidate": "composition",
+          "reference": "conditions",
+          "candidate_mean": 0.16817763060924784,
+          "reference_mean": 0.16194033883148007,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 157,
+          "delta": -0.02936605534070025,
+          "ci95": [
+            -0.07343203916962518,
+            0.016164988007900727
+          ],
+          "candidate": "composition",
+          "reference": "conditions",
+          "candidate_mean": 0.26837750886105594,
+          "reference_mean": 0.29774356420175624,
+          "n_series": 285
+        }
+      },
+      "surface_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 151,
+          "delta": -0.010089522296220047,
+          "ci95": [
+            -0.06380122429419272,
+            0.04556367059326656
+          ],
+          "candidate": "surface",
+          "reference": "conditions",
+          "candidate_mean": 0.15185081653526003,
+          "reference_mean": 0.16194033883148007,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 157,
+          "delta": -0.04365111170807952,
+          "ci95": [
+            -0.09158537166241666,
+            0.005698151657038226
+          ],
+          "candidate": "surface",
+          "reference": "conditions",
+          "candidate_mean": 0.25409245249367673,
+          "reference_mean": 0.29774356420175624,
+          "n_series": 285
+        }
+      },
+      "esm650_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 151,
+          "delta": -0.0011408102990215182,
+          "ci95": [
+            -0.061503947769225756,
+            0.06286175989212064
+          ],
+          "candidate": "esm650",
+          "reference": "conditions",
+          "candidate_mean": 0.16079952853245855,
+          "reference_mean": 0.16194033883148007,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 157,
+          "delta": -0.002767809900776142,
+          "ci95": [
+            -0.04972899096740663,
+            0.04773492470803274
+          ],
+          "candidate": "esm650",
+          "reference": "conditions",
+          "candidate_mean": 0.2949757543009801,
+          "reference_mean": 0.29774356420175624,
+          "n_series": 285
+        }
+      },
+      "surface_vs_composition": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 151,
+          "delta": -0.01632681407398781,
+          "ci95": [
+            -0.05801539059685303,
+            0.02674777280002994
+          ],
+          "candidate": "surface",
+          "reference": "composition",
+          "candidate_mean": 0.15185081653526003,
+          "reference_mean": 0.16817763060924784,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 157,
+          "delta": -0.014285056367379277,
+          "ci95": [
+            -0.05858631394041099,
+            0.02999805064622222
+          ],
+          "candidate": "surface",
+          "reference": "composition",
+          "candidate_mean": 0.25409245249367673,
+          "reference_mean": 0.26837750886105594,
+          "n_series": 285
+        }
+      }
+    }
+  },
+  "identity40": {
+    "rows": 5675,
+    "sequences": 289,
+    "models": {
+      "conditions": {
+        "mae": 45.61187664768697,
+        "r2_percent": -0.15318268388778167,
+        "r2_log1p": 0.015864577915690847,
+        "iterations": [
+          30,
+          31,
+          32,
+          32,
+          30
+        ],
+        "clipped_negative_log_predictions": 2
+      },
+      "composition": {
+        "mae": 79.52055479603798,
+        "r2_percent": -4.060672302459951,
+        "r2_log1p": -0.5847080084938021,
+        "iterations": [
+          91,
+          91,
+          94,
+          95,
+          91
+        ],
+        "clipped_negative_log_predictions": 58
+      },
+      "surface": {
+        "mae": 709.8130824403856,
+        "r2_percent": -188730.7155671218,
+        "r2_log1p": -0.9164971204848602,
+        "iterations": [
+          102,
+          103,
+          106,
+          109,
+          105
+        ],
+        "clipped_negative_log_predictions": 35
+      },
+      "esm650": {
+        "mae": 77.68865760593356,
+        "r2_percent": -4.84721507186542,
+        "r2_log1p": -0.38118368326405627,
+        "iterations": [
+          81,
+          85,
+          82,
+          86,
+          83
+        ],
+        "clipped_negative_log_predictions": 35
+      }
+    },
+    "comparisons": {
+      "composition_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 181,
+          "delta": 0.02537092675429731,
+          "ci95": [
+            -0.023605085652428415,
+            0.07279856304132759
+          ],
+          "candidate": "composition",
+          "reference": "conditions",
+          "candidate_mean": 0.15201269990259644,
+          "reference_mean": 0.12664177314829914,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 190,
+          "delta": -0.0006847631383050685,
+          "ci95": [
+            -0.04224830142921188,
+            0.04042059284724752
+          ],
+          "candidate": "composition",
+          "reference": "conditions",
+          "candidate_mean": 0.2726846716763713,
+          "reference_mean": 0.27336943481467635,
+          "n_series": 285
+        }
+      },
+      "surface_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 181,
+          "delta": 0.02620729591440001,
+          "ci95": [
+            -0.029478777426336398,
+            0.08085713438696843
+          ],
+          "candidate": "surface",
+          "reference": "conditions",
+          "candidate_mean": 0.15284906906269916,
+          "reference_mean": 0.12664177314829914,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 190,
+          "delta": 0.013984885340327687,
+          "ci95": [
+            -0.03463675528793465,
+            0.06042179604041438
+          ],
+          "candidate": "surface",
+          "reference": "conditions",
+          "candidate_mean": 0.287354320155004,
+          "reference_mean": 0.27336943481467635,
+          "n_series": 285
+        }
+      },
+      "esm650_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 181,
+          "delta": -0.005974842370660759,
+          "ci95": [
+            -0.055616868474153355,
+            0.04253379222258851
+          ],
+          "candidate": "esm650",
+          "reference": "conditions",
+          "candidate_mean": 0.12066693077763839,
+          "reference_mean": 0.12664177314829914,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 190,
+          "delta": 0.00011485419638570916,
+          "ci95": [
+            -0.03992478890702791,
+            0.04165605522264065
+          ],
+          "candidate": "esm650",
+          "reference": "conditions",
+          "candidate_mean": 0.27348428901106203,
+          "reference_mean": 0.27336943481467635,
+          "n_series": 285
+        }
+      },
+      "surface_vs_composition": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 181,
+          "delta": 0.0008363691601026922,
+          "ci95": [
+            -0.045599230938544316,
+            0.04557699034011103
+          ],
+          "candidate": "surface",
+          "reference": "composition",
+          "candidate_mean": 0.15284906906269916,
+          "reference_mean": 0.15201269990259644,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 190,
+          "delta": 0.014669648478632759,
+          "ci95": [
+            -0.026536128667559986,
+            0.056110828862887825
+          ],
+          "candidate": "surface",
+          "reference": "composition",
+          "candidate_mean": 0.287354320155004,
+          "reference_mean": 0.2726846716763713,
+          "n_series": 285
+        }
+      }
+    }
+  },
+  "sequence": {
+    "rows": 5675,
+    "sequences": 289,
+    "models": {
+      "conditions": {
+        "mae": 44.74427957388603,
+        "r2_percent": -0.12801221635937332,
+        "r2_log1p": 0.04755888172911571,
+        "iterations": [
+          31,
+          30,
+          31,
+          31,
+          32
+        ],
+        "clipped_negative_log_predictions": 2
+      },
+      "composition": {
+        "mae": 77.62178558473026,
+        "r2_percent": -3.168699710061383,
+        "r2_log1p": -0.43481382881716657,
+        "iterations": [
+          89,
+          90,
+          93,
+          89,
+          93
+        ],
+        "clipped_negative_log_predictions": 41
+      },
+      "surface": {
+        "mae": 277.02244841626447,
+        "r2_percent": -15575.33808761051,
+        "r2_log1p": -0.6643167576964673,
+        "iterations": [
+          105,
+          102,
+          107,
+          105,
+          105
+        ],
+        "clipped_negative_log_predictions": 47
+      },
+      "esm650": {
+        "mae": 264.864728993168,
+        "r2_percent": -3451.36303336854,
+        "r2_log1p": -0.3418899310151089,
+        "iterations": [
+          84,
+          78,
+          82,
+          82,
+          82
+        ],
+        "clipped_negative_log_predictions": 20
+      }
+    },
+    "comparisons": {
+      "composition_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 270,
+          "delta": 0.010276871402924463,
+          "ci95": [
+            -0.03427499604502301,
+            0.05304541091392864
+          ],
+          "candidate": "composition",
+          "reference": "conditions",
+          "candidate_mean": 0.18779544760242076,
+          "reference_mean": 0.1775185761994963,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 285,
+          "delta": -0.0077397597973850605,
+          "ci95": [
+            -0.0459386142547862,
+            0.03134352358943133
+          ],
+          "candidate": "composition",
+          "reference": "conditions",
+          "candidate_mean": 0.2908809653022671,
+          "reference_mean": 0.29862072509965215,
+          "n_series": 285
+        }
+      },
+      "surface_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 270,
+          "delta": -0.03715587425840489,
+          "ci95": [
+            -0.09286849886020479,
+            0.016291435167678187
+          ],
+          "candidate": "surface",
+          "reference": "conditions",
+          "candidate_mean": 0.1403627019410914,
+          "reference_mean": 0.1775185761994963,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 285,
+          "delta": -0.028129370231225324,
+          "ci95": [
+            -0.07286803469087492,
+            0.016410585868510956
+          ],
+          "candidate": "surface",
+          "reference": "conditions",
+          "candidate_mean": 0.2704913548684268,
+          "reference_mean": 0.29862072509965215,
+          "n_series": 285
+        }
+      },
+      "esm650_vs_conditions": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 270,
+          "delta": 0.006207650319535732,
+          "ci95": [
+            -0.03899923264275225,
+            0.05008094820906972
+          ],
+          "candidate": "esm650",
+          "reference": "conditions",
+          "candidate_mean": 0.183726226519032,
+          "reference_mean": 0.1775185761994963,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 285,
+          "delta": 0.009030639277312066,
+          "ci95": [
+            -0.029539503074996868,
+            0.04863257620973538
+          ],
+          "candidate": "esm650",
+          "reference": "conditions",
+          "candidate_mean": 0.3076513643769642,
+          "reference_mean": 0.29862072509965215,
+          "n_series": 285
+        }
+      },
+      "surface_vs_composition": {
+        "matched_solvents": {
+          "n_sequences": 270,
+          "n_clusters": 270,
+          "delta": -0.04743274566132936,
+          "ci95": [
+            -0.09672463730164982,
+            -9.54196024780924e-05
+          ],
+          "candidate": "surface",
+          "reference": "composition",
+          "candidate_mean": 0.1403627019410914,
+          "reference_mean": 0.18779544760242076,
+          "n_series": 763
+        },
+        "all_conditions": {
+          "n_sequences": 285,
+          "n_clusters": 285,
+          "delta": -0.020389610433840265,
+          "ci95": [
+            -0.05983077398045078,
+            0.01933653956128506
+          ],
+          "candidate": "surface",
+          "reference": "composition",
+          "candidate_mean": 0.2704913548684268,
+          "reference_mean": 0.2908809653022671,
+          "n_series": 285
+        }
+      }
+    }
+  }
+}

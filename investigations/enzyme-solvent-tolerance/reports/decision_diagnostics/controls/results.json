@@ -1,0 +1,114 @@
+{
+  "identity30_publication/strong": {
+    "n_sequences": 270,
+    "n_clusters": 136,
+    "delta": 0.7813140244405441,
+    "ci95": [
+      0.6754623775297873,
+      0.8779617545645295
+    ],
+    "candidate": "planted_protein",
+    "reference": "conditions",
+    "candidate_mean": 0.7944755134698801,
+    "reference_mean": 0.013161489029336032,
+    "n_series": 770
+  },
+  "identity30_publication/moderate": {
+    "n_sequences": 270,
+    "n_clusters": 136,
+    "delta": 0.37754562620327164,
+    "ci95": [
+      0.2934226742342841,
+      0.4503537660377398
+    ],
+    "candidate": "planted_protein",
+    "reference": "conditions",
+    "candidate_mean": 0.6401893672609437,
+    "reference_mean": 0.26264374105767185,
+    "n_series": 770
+  },
+  "identity30_publication/no_protein_signal": {
+    "n_sequences": 270,
+    "n_clusters": 136,
+    "delta": 0.0025692716350247586,
+    "ci95": [
+      -0.00893701572314509,
+      0.012127922067087233
+    ],
+    "candidate": "planted_protein",
+    "reference": "conditions",
+    "candidate_mean": 0.6196672123751295,
+    "reference_mean": 0.6170979407401047,
+    "n_series": 770
+  },
+  "identity30_publication/shuffled": {
+    "n_sequences": 270,
+    "n_clusters": 136,
+    "delta": 0.00949408279337063,
+    "ci95": [
+      -0.01816210732352387,
+      0.03809325371187372
+    ],
+    "candidate": "planted_protein",
+    "reference": "conditions",
+    "candidate_mean": 0.022655571822706663,
+    "reference_mean": 0.013161489029336032,
+    "n_series": 770
+  },
+  "identity30/strong": {
+    "n_sequences": 270,
+    "n_clusters": 151,
+    "delta": 0.7242325815851085,
+    "ci95": [
+      0.629844906534474,
+      0.811730720339529
+    ],
+    "candidate": "planted_protein",
+    "reference": "conditions",
+    "candidate_mean": 0.788594100915374,
+    "reference_mean": 0.0643615193302655,
+    "n_series": 770
+  },
+  "identity30/moderate": {
+    "n_sequences": 270,
+    "n_clusters": 151,
+    "delta": 0.41144242710841333,
+    "ci95": [
+      0.31466899879004356,
+      0.5094241425038326
+    ],
+    "candidate": "planted_protein",
+    "reference": "conditions",
+    "candidate_mean": 0.6385743848636671,
+    "reference_mean": 0.22713195775525383,
+    "n_series": 770
+  },
+  "identity30/no_protein_signal": {
+    "n_sequences": 270,
+    "n_clusters": 151,
+    "delta": 0.0005442036275990389,
+    "ci95": [
+      -0.01078848031623445,
+      0.011036075826544953
+    ],
+    "candidate": "planted_protein",
+    "reference": "conditions",
+    "candidate_mean": 0.6103479571356469,
+    "reference_mean": 0.6098037535080478,
+    "n_series": 770
+  },
+  "identity30/shuffled": {
+    "n_sequences": 270,
+    "n_clusters": 151,
+    "delta": -0.0068910305206731455,
+    "ci95": [
+      -0.050285100336221716,
+      0.03553143372182041
+    ],
+    "candidate": "planted_protein",
+    "reference": "conditions",
+    "candidate_mean": 0.05747048880959236,
+    "reference_mean": 0.0643615193302655,
+    "n_series": 770
+  }
+}

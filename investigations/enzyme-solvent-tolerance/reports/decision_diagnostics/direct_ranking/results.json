@@ -1,0 +1,216 @@
+{
+  "all": {
+    "rows": 5275,
+    "sequences": 270,
+    "publications": 246,
+    "comparisons": {
+      "composition_vs_conditions": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": 0.08863925160889947,
+        "ci95": [
+          0.02910072848915162,
+          0.1398189788613962
+        ],
+        "candidate": "composition",
+        "reference": "conditions",
+        "candidate_mean": 0.18535938319738077,
+        "reference_mean": 0.09672013158848126,
+        "n_series": 763
+      },
+      "surface_vs_conditions": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": 0.09588039655934916,
+        "ci95": [
+          0.046779758944629934,
+          0.13484677055604394
+        ],
+        "candidate": "surface",
+        "reference": "conditions",
+        "candidate_mean": 0.19260052814783046,
+        "reference_mean": 0.09672013158848126,
+        "n_series": 763
+      },
+      "esm650_vs_conditions": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": 0.0919623583473026,
+        "ci95": [
+          0.019985546138202897,
+          0.15708294069679024
+        ],
+        "candidate": "esm650",
+        "reference": "conditions",
+        "candidate_mean": 0.18868248993578388,
+        "reference_mean": 0.09672013158848126,
+        "n_series": 763
+      },
+      "surface_vs_composition": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": 0.007241144950449698,
+        "ci95": [
+          -0.02993983192438773,
+          0.045045469865137716
+        ],
+        "candidate": "surface",
+        "reference": "composition",
+        "candidate_mean": 0.19260052814783046,
+        "reference_mean": 0.18535938319738077,
+        "n_series": 763
+      }
+    },
+    "versus_activity_trained_metadata": {
+      "composition": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": -0.005646814711308574,
+        "ci95": [
+          -0.064784093288701,
+          0.043677010051730046
+        ],
+        "candidate": "composition",
+        "reference": "activity_metadata",
+        "candidate_mean": 0.18535938319738077,
+        "reference_mean": 0.1910061979086893,
+        "n_series": 763
+      },
+      "surface": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": 0.0015943302391411244,
+        "ci95": [
+          -0.05384493502272872,
+          0.05731122444935044
+        ],
+        "candidate": "surface",
+        "reference": "activity_metadata",
+        "candidate_mean": 0.19260052814783046,
+        "reference_mean": 0.1910061979086893,
+        "n_series": 763
+      },
+      "esm650": {
+        "n_sequences": 270,
+        "n_clusters": 136,
+        "delta": -0.0023237079729054536,
+        "ci95": [
+          -0.048653234036220475,
+          0.039343963204664135
+        ],
+        "candidate": "esm650",
+        "reference": "activity_metadata",
+        "candidate_mean": 0.18868248993578388,
+        "reference_mean": 0.1910061979086893,
+        "n_series": 763
+      }
+    }
+  },
+  "aqueous_explicit": {
+    "rows": 2036,
+    "sequences": 97,
+    "publications": 86,
+    "comparisons": {
+      "composition_vs_conditions": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": 0.017808799633610754,
+        "ci95": [
+          -0.06166111156063373,
+          0.09060208392342914
+        ],
+        "candidate": "composition",
+        "reference": "conditions",
+        "candidate_mean": 0.19662438503437962,
+        "reference_mean": 0.1788155854007689,
+        "n_series": 320
+      },
+      "surface_vs_conditions": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": 0.03975736257044692,
+        "ci95": [
+          -0.04575472619840994,
+          0.11972714429829318
+        ],
+        "candidate": "surface",
+        "reference": "conditions",
+        "candidate_mean": 0.2185729479712158,
+        "reference_mean": 0.1788155854007689,
+        "n_series": 320
+      },
+      "esm650_vs_conditions": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": 0.056936975161666736,
+        "ci95": [
+          -0.04951686340775983,
+          0.1398093129561815
+        ],
+        "candidate": "esm650",
+        "reference": "conditions",
+        "candidate_mean": 0.23575256056243557,
+        "reference_mean": 0.1788155854007689,
+        "n_series": 320
+      },
+      "surface_vs_composition": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": 0.021948562936836162,
+        "ci95": [
+          -0.01076337709483434,
+          0.056752279851528656
+        ],
+        "candidate": "surface",
+        "reference": "composition",
+        "candidate_mean": 0.2185729479712158,
+        "reference_mean": 0.19662438503437962,
+        "n_series": 320
+      }
+    },
+    "versus_activity_trained_metadata": {
+      "composition": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": -0.06205555945624323,
+        "ci95": [
+          -0.14015311000638306,
+          0.02008136809785822
+        ],
+        "candidate": "composition",
+        "reference": "activity_metadata",
+        "candidate_mean": 0.19662438503437962,
+        "reference_mean": 0.25867994449062287,
+        "n_series": 320
+      },
+      "surface": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": -0.04010699651940707,
+        "ci95": [
+          -0.11959324907673366,
+          0.04547458650533885
+        ],
+        "candidate": "surface",
+        "reference": "activity_metadata",
+        "candidate_mean": 0.2185729479712158,
+        "reference_mean": 0.25867994449062287,
+        "n_series": 320
+      },
+      "esm650": {
+        "n_sequences": 97,
+        "n_clusters": 63,
+        "delta": -0.022927383928187245,
+        "ci95": [
+          -0.10433386473446271,
+          0.04542481765126058
+        ],
+        "candidate": "esm650",
+        "reference": "activity_metadata",
+        "candidate_mean": 0.23575256056243557,
+        "reference_mean": 0.25867994449062287,
+        "n_series": 320
+      }
+    }
+  }
+}

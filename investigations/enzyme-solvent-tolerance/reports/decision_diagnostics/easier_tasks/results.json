@@ -1,0 +1,155 @@
+{
+  "familiar_family": {
+    "rows": 1517,
+    "sequences": 85,
+    "publications": 79,
+    "uncertainty_units": 4,
+    "scoreable_sequences": 80,
+    "series": 182,
+    "families": 8,
+    "comparisons": {
+      "family_conditions_vs_conditions": {
+        "n_sequences": 80,
+        "n_clusters": 4,
+        "delta": -0.016875661845406374,
+        "ci95": [
+          -0.05131443245394068,
+          0.019804569566090065
+        ],
+        "candidate": "family_conditions",
+        "reference": "conditions",
+        "candidate_mean": 0.1430769990978364,
+        "reference_mean": 0.15995266094324279,
+        "n_series": 182
+      },
+      "composition_vs_family_conditions": {
+        "n_sequences": 80,
+        "n_clusters": 4,
+        "delta": 0.10106583763171177,
+        "ci95": [
+          0.0718963231141458,
+          0.11765242431817087
+        ],
+        "candidate": "composition",
+        "reference": "family_conditions",
+        "candidate_mean": 0.24414283672954823,
+        "reference_mean": 0.1430769990978364,
+        "n_series": 182
+      },
+      "surface_vs_family_conditions": {
+        "n_sequences": 80,
+        "n_clusters": 4,
+        "delta": 0.094896706216554,
+        "ci95": [
+          0.025992764946925297,
+          0.14470673326794303
+        ],
+        "candidate": "surface",
+        "reference": "family_conditions",
+        "candidate_mean": 0.23797370531439038,
+        "reference_mean": 0.1430769990978364,
+        "n_series": 182
+      },
+      "esm650_vs_family_conditions": {
+        "n_sequences": 80,
+        "n_clusters": 4,
+        "delta": 0.03875944113508571,
+        "ci95": [
+          -0.047928172090463246,
+          0.08805239767510377
+        ],
+        "candidate": "esm650",
+        "reference": "family_conditions",
+        "candidate_mean": 0.18183644023292214,
+        "reference_mean": 0.1430769990978364,
+        "n_series": 182
+      },
+      "surface_vs_composition": {
+        "n_sequences": 80,
+        "n_clusters": 4,
+        "delta": -0.006169131415157772,
+        "ci95": [
+          -0.05874698874871516,
+          0.04301696309473244
+        ],
+        "candidate": "surface",
+        "reference": "composition",
+        "candidate_mean": 0.23797370531439038,
+        "reference_mean": 0.24414283672954823,
+        "n_series": 182
+      },
+      "esm650_vs_composition": {
+        "n_sequences": 80,
+        "n_clusters": 4,
+        "delta": -0.06230639649662606,
+        "ci95": [
+          -0.11982449520460906,
+          -0.02662578061290508
+        ],
+        "candidate": "esm650",
+        "reference": "composition",
+        "candidate_mean": 0.18183644023292214,
+        "reference_mean": 0.24414283672954823,
+        "n_series": 182
+      }
+    }
+  },
+  "known_enzyme": {
+    "rows": 432,
+    "sequences": 13,
+    "publications": 27,
+    "uncertainty_units": 12,
+    "scoreable_sequences": 11,
+    "series": 55,
+    "comparisons": {
+      "sequence_identity_vs_conditions": {
+        "n_sequences": 11,
+        "n_clusters": 11,
+        "delta": -0.05775495922773824,
+        "ci95": [
+          -0.21820554838994025,
+          0.06611988977376274
+        ],
+        "candidate": "sequence_identity",
+        "reference": "conditions",
+        "candidate_mean": 0.1689914831972798,
+        "reference_mean": 0.226746442425018,
+        "n_series": 55
+      },
+      "surface_vs_conditions": {
+        "n_sequences": 11,
+        "n_clusters": 11,
+        "delta": -0.12339844965728766,
+        "ci95": [
+          -0.4022286399622457,
+          0.11445037422988534
+        ],
+        "candidate": "surface",
+        "reference": "conditions",
+        "candidate_mean": 0.10334799276773034,
+        "reference_mean": 0.226746442425018,
+        "n_series": 55
+      },
+      "surface_vs_sequence_identity": {
+        "n_sequences": 11,
+        "n_clusters": 11,
+        "delta": -0.06564349042954941,
+        "ci95": [
+          -0.19278283847305627,
+          0.058788110834668346
+        ],
+        "candidate": "surface",
+        "reference": "sequence_identity",
+        "candidate_mean": 0.10334799276773034,
+        "reference_mean": 0.1689914831972798,
+        "n_series": 55
+      }
+    },
+    "leave_publication_fits_per_model": 27
+  },
+  "checks": {
+    "raw_sha256_after": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+    "unique_measurement_ids": true,
+    "elapsed_seconds": 285.0085747500125
+  }
+}

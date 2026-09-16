@@ -1,0 +1,58 @@
+{
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "audit": {
+    "initial_primary_rows": 6433,
+    "standard_sequence_rows": 6357,
+    "control100_valid_rows": 5801,
+    "duplicate_rows_removed": 3,
+    "rows": 5798,
+    "sequences": 295,
+    "solvents": 72,
+    "publications": 272
+  },
+  "variants": {
+    "primary": {
+      "sequences": 289,
+      "measurements": 5675
+    },
+    "rsa10": {
+      "sequences": 289,
+      "measurements": 5675
+    },
+    "rsa30": {
+      "sequences": 289,
+      "measurements": 5675
+    },
+    "confidence70": {
+      "sequences": 284,
+      "measurements": 5597
+    }
+  },
+  "primary": "27 surface descriptors at RSA >=0.20 plus conditions versus conditions-only, same rows/folds",
+  "controls": [
+    "whole-sequence composition",
+    "ESM650",
+    "ESM650 plus surface"
+  ],
+  "sensitivities": [
+    "RSA >=0.10",
+    "RSA >=0.30",
+    "protein mean pLDDT >=70 and descriptors restricted to residues with pLDDT >=70",
+    "seeds 23 and 47 in the primary 30%-identity-plus-publication split"
+  ],
+  "settings": {
+    "trees": 250,
+    "min_samples_leaf": 5,
+    "max_features": 1.0,
+    "seed": 11,
+    "target": "log1p(percent)",
+    "folds": "unchanged saved assignments after row filtering",
+    "bootstrap": "5000 paired component draws, conditional on fits"
+  },
+  "inference": "Exploratory sensitivity analyses, no selection of a winning cutoff; intervals are not multiplicity-adjusted",
+  "versions": {
+    "numpy": "2.2.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  }
+}

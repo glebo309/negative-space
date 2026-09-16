@@ -1,0 +1,19 @@
+{
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "purpose": "Distinguish training/design interpolation from held-out enzyme prediction",
+  "modes": [
+    "five-fold shuffled row split seed11",
+    "resubstitution on complete training dataset"
+  ],
+  "comparators": [
+    "conditions",
+    "surface",
+    "esm650"
+  ],
+  "settings": {
+    "trees": 250,
+    "min_samples_leaf": 5,
+    "seed": 11
+  },
+  "inference": "Descriptive diagnostics only. Rows deliberately share proteins and publications across folds; no valid transfer claim or inferential confidence interval."
+}

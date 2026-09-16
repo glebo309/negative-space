@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-11",
+  "raw_sha256_after": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "prediction_tables_checked": 16,
+  "finite_cached_model_fits": 206,
+  "unique_ids_in_each_prediction_table": true,
+  "all_prediction_ids_sequences_and_targets_match_source": true,
+  "all_predictions_finite": true,
+  "all_familiar_sequence_and_publication_fold_assertions_pass": true,
+  "all_eligible_familiar_training_support_at_least_three_sequences_and_papers": true,
+  "all_known_enzyme_test_sequences_seen_in_training": true,
+  "all_known_enzyme_test_publications_absent_from_training": true,
+  "prior_prediction_files_unchanged_during_followups": true,
+  "shared_rows_followup_uses_identical_family_publication_uncertainty_mapping": true,
+  "full_test_suite_passed_at_final_check": 54,
+  "new_easier_task_tests": 10,
+  "tdd_red_phases_observed_before_implementation": true
+}

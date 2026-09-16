@@ -1,0 +1,16 @@
+{
+  "generator": "log target = 5 + 0.3*tanh(logP/2) + strength*clip(z_acidic_ASA,-2,2)*tanh(logP/2) + Gaussian noise",
+  "seed": 11,
+  "noise": 0.1,
+  "signal_mean": 0.1601097948458573,
+  "signal_sd": 0.06627317917661377,
+  "controls": [
+    "strength1.5",
+    "strength0.5",
+    "strength0.0",
+    "shuffled_strong_protein_feature"
+  ],
+  "scope": "Planted simple global signal on real design; passing does not prove sensitivity to arbitrary biology",
+  "raw_data_unchanged": true,
+  "positive_target": "strong-signal protein candidate rho >0.7 and improvement >0.3 in both strict splits"
+}

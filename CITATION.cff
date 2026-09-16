@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you reuse this archive or its software, cite the repository and the relevant investigation."
+title: "Negative Space: hypotheses tested, boundaries found, work preserved"
+type: software
+authors:
+  - family-names: Bojanov
+    given-names: Glenn
+    affiliation: University of Bern
+repository-code: "https://github.com/glebo309/negative-space"
+url: "https://github.com/glebo309/negative-space"
+license: MIT
+version: 0.1.0
+date-released: 2026-09-16

@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-09-11T16:55:37.149370+00:00",
+  "audit": {
+    "initial_primary_rows": 6433,
+    "standard_sequence_rows": 6357,
+    "control100_valid_rows": 5801,
+    "duplicate_rows_removed": 3,
+    "rows": 5798,
+    "sequences": 295,
+    "solvents": 72,
+    "publications": 272
+  },
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "requested": 295,
+  "matched": 289,
+  "unavailable": 6,
+  "download_errors": {
+    "154": "ValueError: No structure attribute in first 128 KiB of page",
+    "155": "ValueError: No structure attribute in first 128 KiB of page"
+  },
+  "exposed_definition": "RSA >= 0.20; additional per-residue flags at 0.10 and 0.30",
+  "rsa_reference": "FreeSASA default classifier reference areas; values above 1 retained",
+  "confidence": "CA B-factor treated as pLDDT for database-provided predicted structures; >=70 sensitivity subset",
+  "geometry": "All standard protein heavy atoms in the first provided model, without ligands or waters; not a verified biological assembly",
+  "versions": {
+    "biopython": "1.86",
+    "freesasa": "2.2.1",
+    "requests": "2.32.3"
+  }
+}

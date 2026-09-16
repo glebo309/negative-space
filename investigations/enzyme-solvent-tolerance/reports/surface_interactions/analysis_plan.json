@@ -1,0 +1,13 @@
+{
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "alpha": 100,
+  "solver": "lsqr",
+  "tolerance": 1e-06,
+  "max_iter": 2000,
+  "esm_pca_components": 16,
+  "protein_scaling": "Unique training proteins only; ESM PCA also train-only",
+  "context": "Training-only imputation/scaling and solvent one-hot encoding",
+  "basis": "Conditions + solvent + solvent*conditions; candidates add protein + protein*solvent + protein*conditions",
+  "target": "log1p(percent), predictions floored at log value zero before conversion",
+  "scope": "Supplementary learner check chosen after primary surface-tree results; fixed alpha, no held-out tuning"
+}

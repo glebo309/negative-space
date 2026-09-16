@@ -1,0 +1,16 @@
+{
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "trees": 250,
+  "min_samples_leaf": 5,
+  "seed": 11,
+  "target": "log1p(percent)",
+  "family_qualification": "at least 5 sequences and 5 publications in original cohort; 3 training sequences and 3 training papers per test family",
+  "family_folds": "five-fold GroupKFold on full-cohort sequence/publication connected components before structure filter",
+  "known_folds": "leave entire publication out, predict only exact sequences seen in another training publication",
+  "family_uncertainty": "family/publication connected evaluation components, conditional paired bootstrap 5000 draws",
+  "known_uncertainty": "sequence/publication connected evaluation components, conditional paired bootstrap 5000 draws",
+  "preprocess": "training-only imputation and categorical encoding",
+  "inference": "Exploratory, limited independent support; no held-out model tuning; identity tree permits interactions",
+  "score": "Matched solvent Spearman, averaged by sequence",
+  "influence": "leave-one-family-out score summaries only, no refitting"
+}

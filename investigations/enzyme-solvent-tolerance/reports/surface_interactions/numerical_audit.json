@@ -1,0 +1,149 @@
+{
+  "scope": "First fold of every split and model, 16 refits; independent non-BLAS prediction and gradient checks",
+  "checks": [
+    {
+      "split": "identity30_publication",
+      "model": "conditions",
+      "fold": 0,
+      "matvec_max_difference": 8.881784197001252e-16,
+      "relative_gradient": 7.429795946329165e-06,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "identity30_publication",
+      "model": "composition",
+      "fold": 0,
+      "matvec_max_difference": 5.329070518200751e-15,
+      "relative_gradient": 1.4245927691594145e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "identity30_publication",
+      "model": "surface",
+      "fold": 0,
+      "matvec_max_difference": 5.329070518200751e-15,
+      "relative_gradient": 2.1296091145460066e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "identity30_publication",
+      "model": "esm650",
+      "fold": 0,
+      "matvec_max_difference": 3.552713678800501e-15,
+      "relative_gradient": 1.751547338943176e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 33
+    },
+    {
+      "split": "identity30",
+      "model": "conditions",
+      "fold": 0,
+      "matvec_max_difference": 8.881784197001252e-16,
+      "relative_gradient": 6.308092565706678e-06,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 3
+    },
+    {
+      "split": "identity30",
+      "model": "composition",
+      "fold": 0,
+      "matvec_max_difference": 2.220446049250313e-15,
+      "relative_gradient": 1.7640178454135208e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "identity30",
+      "model": "surface",
+      "fold": 0,
+      "matvec_max_difference": 3.1086244689504383e-15,
+      "relative_gradient": 1.8794462303197067e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "identity30",
+      "model": "esm650",
+      "fold": 0,
+      "matvec_max_difference": 2.6645352591003757e-15,
+      "relative_gradient": 1.5351831648837394e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 33
+    },
+    {
+      "split": "identity40",
+      "model": "conditions",
+      "fold": 0,
+      "matvec_max_difference": 8.881784197001252e-16,
+      "relative_gradient": 1.0210104375301808e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "identity40",
+      "model": "composition",
+      "fold": 0,
+      "matvec_max_difference": 5.329070518200751e-15,
+      "relative_gradient": 1.6101473302662468e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "identity40",
+      "model": "surface",
+      "fold": 0,
+      "matvec_max_difference": 3.552713678800501e-15,
+      "relative_gradient": 1.6643180999354688e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "identity40",
+      "model": "esm650",
+      "fold": 0,
+      "matvec_max_difference": 4.440892098500626e-15,
+      "relative_gradient": 1.1848914030746067e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 33
+    },
+    {
+      "split": "sequence",
+      "model": "conditions",
+      "fold": 0,
+      "matvec_max_difference": 8.881784197001252e-16,
+      "relative_gradient": 1.165908587341813e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "sequence",
+      "model": "composition",
+      "fold": 0,
+      "matvec_max_difference": 2.6645352591003757e-15,
+      "relative_gradient": 1.900269579170538e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "sequence",
+      "model": "surface",
+      "fold": 0,
+      "matvec_max_difference": 2.6645352591003757e-15,
+      "relative_gradient": 2.2460703001351043e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 6
+    },
+    {
+      "split": "sequence",
+      "model": "esm650",
+      "fold": 0,
+      "matvec_max_difference": 2.220446049250313e-15,
+      "relative_gradient": 1.5634754712553157e-05,
+      "cached_prediction_max_difference": 0.0,
+      "warnings": 33
+    }
+  ]
+}

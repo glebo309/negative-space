@@ -1,0 +1,163 @@
+{
+  "extraction": {
+    "model": "facebook/esm2_t33_650M_UR50D",
+    "revision": "08e4846e537177426273712802403f7ba8261b6c",
+    "device": "mps",
+    "shape": [
+      295,
+      1280
+    ],
+    "seconds": 34.77311925002141,
+    "cpu_gpu_max_difference": 1.3113021850585938e-06,
+    "long_sequence_ids": [
+      "seq0063",
+      "seq0069",
+      "seq0070",
+      "seq0071",
+      "seq0161"
+    ],
+    "chunk_size": 1022,
+    "pooling": "Final layer mean over residues, excluding special and padding tokens; length-weighted nonoverlapping chunks for long proteins",
+    "versions": {
+      "torch": "2.11.0",
+      "transformers": "4.57.6",
+      "safetensors": "0.5.3"
+    }
+  },
+  "audit": {
+    "initial_primary_rows": 6433,
+    "standard_sequence_rows": 6357,
+    "control100_valid_rows": 5801,
+    "duplicate_rows_removed": 3,
+    "rows": 5798,
+    "sequences": 295,
+    "solvents": 72,
+    "publications": 272
+  },
+  "raw_sha256": "400823131c996a3899d95cdb0c82e37a6aa5833d32f0daa23e15a696045b3a06",
+  "model_settings": {
+    "n_estimators": 250,
+    "min_samples_leaf": 5,
+    "max_features": 1.0,
+    "random_state": 11,
+    "target": "log1p(percent)"
+  },
+  "results": {
+    "identity30": {
+      "mae_percentage_points": 44.56465691479949,
+      "r2_percent": -0.11296216678631033,
+      "r2_log1p": 0.08025948737692368,
+      "all_conditions": {
+        "n_sequences": 291,
+        "n_clusters": 159,
+        "delta": 0.03132612796567189,
+        "ci95": [
+          -0.013780279860343303,
+          0.07811305876794222
+        ],
+        "baseline": 0.33811286017297837,
+        "esm": 0.36943898813865034,
+        "n_series": 291
+      },
+      "matched_solvents": {
+        "n_sequences": 275,
+        "n_clusters": 153,
+        "delta": 0.004773928699093342,
+        "ci95": [
+          -0.03916014338352376,
+          0.05157486543331802
+        ],
+        "baseline": 0.2204794748741224,
+        "esm": 0.22525340357321574,
+        "n_series": 772
+      }
+    },
+    "identity30_publication": {
+      "mae_percentage_points": 45.268130314938894,
+      "r2_percent": -0.13731658216054754,
+      "r2_log1p": 0.06595974840483398,
+      "all_conditions": {
+        "n_sequences": 291,
+        "n_clusters": 143,
+        "delta": 0.0556314768396694,
+        "ci95": [
+          0.022524741955026482,
+          0.09426988680348657
+        ],
+        "baseline": 0.2919055577986519,
+        "esm": 0.34753703463832136,
+        "n_series": 291
+      },
+      "matched_solvents": {
+        "n_sequences": 275,
+        "n_clusters": 138,
+        "delta": 0.018614466818112928,
+        "ci95": [
+          -0.021752500215063135,
+          0.06536671546149862
+        ],
+        "baseline": 0.19685144815880534,
+        "esm": 0.2154659149769183,
+        "n_series": 772
+      }
+    },
+    "identity40": {
+      "mae_percentage_points": 44.309020040903434,
+      "r2_percent": -0.10638397954766998,
+      "r2_log1p": 0.08033679615470157,
+      "all_conditions": {
+        "n_sequences": 291,
+        "n_clusters": 192,
+        "delta": 0.054229054587562976,
+        "ci95": [
+          0.00466830252526833,
+          0.10263709334259093
+        ],
+        "baseline": 0.31506068373065504,
+        "esm": 0.369289738318218,
+        "n_series": 291
+      },
+      "matched_solvents": {
+        "n_sequences": 275,
+        "n_clusters": 184,
+        "delta": -0.012198138315781797,
+        "ci95": [
+          -0.0672365700416213,
+          0.04122395569946899
+        ],
+        "baseline": 0.23068919240030752,
+        "esm": 0.2184910540845258,
+        "n_series": 772
+      }
+    },
+    "sequence": {
+      "mae_percentage_points": 43.24560340577745,
+      "r2_percent": -0.09121310581051634,
+      "r2_log1p": 0.10663717428238328,
+      "all_conditions": {
+        "n_sequences": 291,
+        "n_clusters": 291,
+        "delta": 0.028110828963455275,
+        "ci95": [
+          -0.01472394096396419,
+          0.07041188903556238
+        ],
+        "baseline": 0.382162963420566,
+        "esm": 0.4102737923840213,
+        "n_series": 291
+      },
+      "matched_solvents": {
+        "n_sequences": 275,
+        "n_clusters": 275,
+        "delta": -0.019672380249233443,
+        "ci95": [
+          -0.06651671778400177,
+          0.026944914704583718
+        ],
+        "baseline": 0.28568608083423536,
+        "esm": 0.26601370058500196,
+        "n_series": 772
+      }
+    }
+  }
+}

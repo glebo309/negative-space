@@ -1,0 +1,52 @@
+{
+  "candidate": "composition+metadata+family",
+  "reference": "metadata without family identity",
+  "assignments": [
+    "augmented_metadata",
+    "augmented_metadata_split47",
+    "augmented_metadata_split17",
+    "augmented_metadata_split23",
+    "augmented_metadata_split71",
+    "augmented_metadata_split101"
+  ],
+  "interpretation": "Exploratory secondary utility. Average within sequence across available assignments; each sequence counted once. Repeated folds are not independent replication.",
+  "available_runs": {
+    "minimum": 5,
+    "maximum": 6
+  },
+  "metrics": {
+    "pairwise": {
+      "n_sequences": 80,
+      "n_clusters": 4,
+      "delta": 0.0006343858753149086,
+      "ci95": [
+        -0.024585911008464852,
+        0.024043256254872625
+      ],
+      "candidate_mean": 0.5845456829968996,
+      "reference_mean": 0.5839112971215845
+    },
+    "top_rank": {
+      "n_sequences": 80,
+      "n_clusters": 4,
+      "delta": 0.010643450539243562,
+      "ci95": [
+        -0.023112176412236892,
+        0.03829265407575577
+      ],
+      "candidate_mean": 0.6156483068364599,
+      "reference_mean": 0.6050048562972163
+    },
+    "best_hit": {
+      "n_sequences": 80,
+      "n_clusters": 4,
+      "delta": 0.007093253968253976,
+      "ci95": [
+        -0.0595511767925561,
+        0.04498910675381263
+      ],
+      "candidate_mean": 0.25732473544973544,
+      "reference_mean": 0.2502314814814815
+    }
+  }
+}

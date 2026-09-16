@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+tools/
+data/structures/
+reports/**/predictions.csv
+reports/**/*.npz
+**/data/raw/measurements.csv

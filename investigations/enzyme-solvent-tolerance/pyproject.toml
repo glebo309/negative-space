@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enzyme-solvent-tolerance"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2", "numpy>=2", "scipy>=1.15", "scikit-learn>=1.6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+esm = ["torch>=2.11", "transformers>=4.57,<5", "safetensors>=0.5"]
+surface = ["biopython>=1.86", "freesasa>=2.2", "requests>=2.32"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
