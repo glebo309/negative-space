@@ -1,10 +1,8 @@
 # Negative Space
 
-This is where I keep small research projects that reached a useful endpoint but did not become papers.
+This is where I share negative, inconclusive, and otherwise unpublishable research results from projects of any field or scale.
 
-Some hypotheses were not supported. In other cases, the available data could not answer the question, or a literature check showed that the project was already well covered. These results would normally remain on my computer. I am putting them here with the code and data so that the work can be inspected, reused, or continued.
-
-Each entry contains the original question, the experiment or proposed test, the result, and the reason the project stopped. Ideas with no experiment remain labelled as ideas, and inconclusive results remain inconclusive.
+An entry may document a quick test or one unresolved result from years of work. Each one records the original question, the experiment or proposed test, the result, what I learned, and why that line of work stopped. Code and data are included when available so the work can be inspected, reused, or continued. Ideas with no experiment remain labelled as ideas, and inconclusive results remain inconclusive.
 
 Negative and inconclusive results still change what we know. They belong in the scientific record.
 
